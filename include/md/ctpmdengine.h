@@ -4,17 +4,31 @@
  * @Last Modified by:   w2w 
  * @Last Modified time: 2018-03-01 11:50:41 
  */
-#include "mdengine.h"
-#include "ThostFtdcMdApi.h"
+#ifndef CTP_MD_ENGINE_H
+#define CTP_MD_ENGINE_H
 
+#include <cstring>
+#include <md/mdengine.h>
+#include <api/ctp/ThostFtdcMdApi.h>
 class CTPMdEngine: public MdEngine, public CThostFtdcMdSpi
 {
 private:
     CThostFtdcMdApi* api;
 
+	bool connected;
+	bool logged_in;
+	int req_id;
+
+public:
+    virtual void connect();
+    virtual void login();
+
+public:
+    CTPMdEngine();
+
 public:
 ///当客户端与交易后台建立起通信连接时（还未登录前），该方法被调用。
-	virtual void OnFrontConnected(){};
+	virtual void OnFrontConnected();
 	
 	///当客户端与交易后台通信连接断开时，该方法被调用。当发生这个情况后，API会自动重新连接，客户端可不做处理。
 	///@param nReason 错误原因
@@ -40,7 +54,7 @@ public:
 	virtual void OnRspError(CThostFtdcRspInfoField *pRspInfo, int nRequestID, bool bIsLast) {};
 
 	///订阅行情应答
-	virtual void OnRspSubMarketData(CThostFtdcSpecificInstrumentField *pSpecificInstrument, CThostFtdcRspInfoField *pRspInfo, int nRequestID, bool bIsLast) {};
+	virtual void OnRspSubMarketData(CThostFtdcSpecificInstrumentField *pSpecificInstrument, CThostFtdcRspInfoField *pRspInfo, int nRequestID, bool bIsLast);
 
 	///取消订阅行情应答
 	virtual void OnRspUnSubMarketData(CThostFtdcSpecificInstrumentField *pSpecificInstrument, CThostFtdcRspInfoField *pRspInfo, int nRequestID, bool bIsLast) {};
@@ -52,9 +66,11 @@ public:
 	virtual void OnRspUnSubForQuoteRsp(CThostFtdcSpecificInstrumentField *pSpecificInstrument, CThostFtdcRspInfoField *pRspInfo, int nRequestID, bool bIsLast) {};
 
 	///深度行情通知
-	virtual void OnRtnDepthMarketData(CThostFtdcDepthMarketDataField *pDepthMarketData) {};
+	virtual void OnRtnDepthMarketData(CThostFtdcDepthMarketDataField *pDepthMarketData);
 
 	///询价通知
 	virtual void OnRtnForQuoteRsp(CThostFtdcForQuoteRspField *pForQuoteRsp) {};
 
 };
+
+#endif

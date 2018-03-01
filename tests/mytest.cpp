@@ -5,21 +5,17 @@
  * @Last Modified time: 2018-03-01 12:31:08
  */
 
-#include "ctpmdengine.h"
-
+#include "md/ctpmdengine.h"
 
 
 void TestAdapter(){
-        
-    
-    
-    
-
-
-
+    CTPMdEngine* md = new CTPMdEngine();
+    md->connect();
+    md->login();
 }
 
 
 int main(){
-
+    TestAdapter();
+    return 0;
 }

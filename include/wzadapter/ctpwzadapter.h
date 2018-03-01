@@ -7,12 +7,10 @@
 #ifndef CTP_WZ_ADAPTER_H
 #define CTP_WZ_ADAPTER_H
 
-#include "wzdatastruct.h"
-
+#include <wzadapter/wzdatastruct.h>
 #include <string.h>
 
-#include "../api/ctp/ThostFtdcUserApiStruct.h"
-
+#include <api/ctp/ThostFtdcUserApiStruct.h>
 
 inline struct WZMarketDataField parseFrom(const struct CThostFtdcDepthMarketDataField &ori)
 {

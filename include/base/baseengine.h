@@ -15,16 +15,18 @@ class BaseEngine{
 
 protected:
     const short source_id;
-    bool is_running = false;
+    bool is_running;
 
 public:
-    BaseEngine(const short source);
+    BaseEngine(const short source = 0);
+    ~BaseEngine();
 
     void initialize(const string &json_str);
-
-    virtual void init() = 0;
-    virtual void load() = 0;
-    virtual void connect() = 0;
+//
+//    virtual void init() = 0;
+//    virtual void load() = 0;
+//    virtual void connect() = 0;
+//    virtual void func() = 0;
 };
 
 #endif

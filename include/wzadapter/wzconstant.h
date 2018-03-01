@@ -12,7 +12,7 @@
 const short SOURCE_CTP = 1;
 
 // Exchange Names
-const char* EXCAHNGE_SSE = "SSE"; //上海证券交易所
+const char* EXCHANGE_SSE = "SSE"; //上海证券交易所
 
 // Exchange ids
 const short EXCHANGE_ID_SSE = 1; //上海证券交易所
