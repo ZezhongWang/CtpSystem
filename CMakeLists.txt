@@ -10,7 +10,7 @@ INCLUDE_DIRECTORIES(
 
 # lib directories
 LINK_DIRECTORIES(
-  ${PROJECT_SOURCE_DIR}/lib
+  ${CMAKE_CURRENT_SOURCE_DIR}/lib
   ${PROJECT_BINARY_DIR}/lib
   /usr/local/lib
   /usr/lib

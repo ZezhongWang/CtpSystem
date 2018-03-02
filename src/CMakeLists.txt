@@ -10,7 +10,7 @@ SET(CTP_SYSTEM_SRCS
 )
 
 LINK_DIRECTORIES(
-  ${PROJECT_SOURCE_DIR}/lib/api/ctp
+  ${CMAKE_CURRENT_SOURCE_DIR}/../lib/api/ctp
   ${PROJECT_BINARY_DIR}/lib
   /usr/local/lib
   /usr/lib
@@ -18,10 +18,10 @@ LINK_DIRECTORIES(
 
 # shared library
 ADD_LIBRARY(CtpSystem_dynamic SHARED ${CTP_SYSTEM_SRCS})
-TARGET_LINK_LIBRARIES(CtpSystem_dynamic thostmduserapi.so thosttraderapi.so)
+TARGET_LINK_LIBRARIES(CtpSystem_dynamic thostmduserapi thosttraderapi)
 # static library
 ADD_LIBRARY(CtpSystem_static STATIC ${CTP_SYSTEM_SRCS})
-TARGET_LINK_LIBRARIES(CtpSystem_static thostmduserapi.so thosttraderapi.so)
+TARGET_LINK_LIBRARIES(CtpSystem_static thostmduserapi thosttraderapi)
 
 SET_TARGET_PROPERTIES(CtpSystem_static PROPERTIES OUTPUT_NAME "CtpSystem")
 SET_TARGET_PROPERTIES(CtpSystem_dynamic PROPERTIES OUTPUT_NAME "CtpSystem")
