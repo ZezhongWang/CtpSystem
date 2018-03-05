@@ -15,16 +15,94 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03480712-c511-4014-9f9f-c304088962c5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/DialogRsp.con" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/QueryRsp.con" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/TradingDay.con" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/mytest" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_C.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/CMakeFiles/3.5.1/CMakeDetermineCompilerABI_CXX.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/CMakeFiles/3.5.1/CompilerIdC/a.out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/CMakeFiles/feature_tests.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/libCtpSystem.a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/lib/libCtpSystem.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/src/CMakeFiles/CtpSystem_dynamic.dir/base/baseengine.cpp.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/src/CMakeFiles/CtpSystem_dynamic.dir/log/logger.cpp.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/src/CMakeFiles/CtpSystem_dynamic.dir/md/ctpmdengine.cpp.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/src/CMakeFiles/CtpSystem_dynamic.dir/md/mdengine.cpp.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/src/CMakeFiles/CtpSystem_dynamic.dir/strategy/basestrategy.cpp.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/src/CMakeFiles/CtpSystem_dynamic.dir/td/ctptdengine.cpp.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/src/CMakeFiles/CtpSystem_dynamic.dir/td/tdengine.cpp.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/src/CMakeFiles/CtpSystem_static.dir/base/baseengine.cpp.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/src/CMakeFiles/CtpSystem_static.dir/log/logger.cpp.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/src/CMakeFiles/CtpSystem_static.dir/md/ctpmdengine.cpp.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/src/CMakeFiles/CtpSystem_static.dir/md/mdengine.cpp.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/src/CMakeFiles/CtpSystem_static.dir/strategy/basestrategy.cpp.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/src/CMakeFiles/CtpSystem_static.dir/td/ctptdengine.cpp.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/src/CMakeFiles/CtpSystem_static.dir/td/tdengine.cpp.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/tests/CMakeFiles/mytest.dir/mytest.cpp.o" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/CMakeCache.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/CMakeFiles/3.5.1/CMakeCCompiler.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/CMakeFiles/3.5.1/CMakeCXXCompiler.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/CMakeFiles/3.5.1/CMakeSystem.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/CMakeFiles/3.5.1/CompilerIdC/CMakeCCompilerId.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/CMakeFiles/3.5.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeDirectoryInformation.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/CMakeFiles/CMakeOutput.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/CMakeFiles/Makefile2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/CMakeFiles/TargetDirectories.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/CMakeFiles/cmake.check_cache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/CMakeFiles/feature_tests.c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/CMakeFiles/feature_tests.cxx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/CMakeFiles/progress.marks" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/cmake_install.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/src/CMakeFiles/CMakeDirectoryInformation.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/src/CMakeFiles/CtpSystem_dynamic.dir/CXX.includecache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/src/CMakeFiles/CtpSystem_dynamic.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/src/CMakeFiles/CtpSystem_dynamic.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/src/CMakeFiles/CtpSystem_dynamic.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/src/CMakeFiles/CtpSystem_dynamic.dir/depend.internal" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/src/CMakeFiles/CtpSystem_dynamic.dir/depend.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/src/CMakeFiles/CtpSystem_dynamic.dir/flags.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/src/CMakeFiles/CtpSystem_dynamic.dir/link.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/src/CMakeFiles/CtpSystem_dynamic.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/src/CMakeFiles/CtpSystem_static.dir/CXX.includecache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/src/CMakeFiles/CtpSystem_static.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/src/CMakeFiles/CtpSystem_static.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/src/CMakeFiles/CtpSystem_static.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/src/CMakeFiles/CtpSystem_static.dir/cmake_clean_target.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/src/CMakeFiles/CtpSystem_static.dir/depend.internal" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/src/CMakeFiles/CtpSystem_static.dir/depend.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/src/CMakeFiles/CtpSystem_static.dir/flags.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/src/CMakeFiles/CtpSystem_static.dir/link.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/src/CMakeFiles/CtpSystem_static.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/src/CMakeFiles/progress.marks" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/src/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/src/cmake_install.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/tests/CMakeFiles/CMakeDirectoryInformation.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/tests/CMakeFiles/mytest.dir/CXX.includecache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/tests/CMakeFiles/mytest.dir/DependInfo.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/tests/CMakeFiles/mytest.dir/build.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/tests/CMakeFiles/mytest.dir/cmake_clean.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/tests/CMakeFiles/mytest.dir/depend.internal" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/tests/CMakeFiles/mytest.dir/depend.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/tests/CMakeFiles/mytest.dir/flags.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/tests/CMakeFiles/mytest.dir/link.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/tests/CMakeFiles/mytest.dir/progress.make" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/tests/CMakeFiles/progress.marks" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/tests/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/tests/cmake_install.cmake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/KnowledgePoints.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/base/baseengine.h" afterPath="$PROJECT_DIR$/include/base/baseengine.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/md/ctpmdengine.h" afterPath="$PROJECT_DIR$/include/md/ctpmdengine.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/md/mdengine.h" afterPath="$PROJECT_DIR$/include/md/mdengine.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/wzadapter/wzconstant.h" afterPath="$PROJECT_DIR$/include/wzadapter/wzconstant.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CMakeLists.txt" afterPath="$PROJECT_DIR$/src/CMakeLists.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/base/baseengine.cpp" afterPath="$PROJECT_DIR$/src/base/baseengine.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/td/ctptdengine.h" afterPath="$PROJECT_DIR$/include/td/ctptdengine.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/td/tdengine.h" afterPath="$PROJECT_DIR$/include/td/tdengine.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/include/wzadapter/ctpwzadapter.h" afterPath="$PROJECT_DIR$/include/wzadapter/ctpwzadapter.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/md/ctpmdengine.cpp" afterPath="$PROJECT_DIR$/src/md/ctpmdengine.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/md/mdengine.cpp" afterPath="$PROJECT_DIR$/src/md/mdengine.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/td/ctptdengine.cpp" afterPath="$PROJECT_DIR$/src/td/ctptdengine.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/td/tdengine.cpp" afterPath="$PROJECT_DIR$/src/td/tdengine.cpp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/mytest.cpp" afterPath="$PROJECT_DIR$/tests/mytest.cpp" />
     </list>
     <ignored path="CtpSystem.iws" />
@@ -48,8 +126,8 @@
       <file leaf-file-name="ctpmdengine.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/md/ctpmdengine.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="100" column="25" selection-start-line="100" selection-start-column="25" selection-end-line="100" selection-end-column="25" />
+            <state relative-caret-position="318">
+              <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
               <folding>
                 <element signature="e#130#149#0" expanded="true" />
               </folding>
@@ -57,12 +135,376 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="mytest.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/mytest.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="512">
+              <caret line="60" column="18" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
+              <folding>
+                <element signature="e#182#198#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThostFtdcUserApiStruct.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/api/ctp/ThostFtdcUserApiStruct.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="422">
+              <caret line="1249" column="31" selection-start-line="1249" selection-start-column="24" selection-end-line="1249" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#73#0" expanded="false" />
+                <element signature="e#460#601#1" expanded="false" />
+                <element signature="e#614#1185#1" expanded="false" />
+                <element signature="e#1198#1784#1" expanded="false" />
+                <element signature="e#1797#1917#1" expanded="false" />
+                <element signature="e#1931#2056#1" expanded="false" />
+                <element signature="e#2070#2293#1" expanded="false" />
+                <element signature="e#2307#2488#1" expanded="false" />
+                <element signature="e#2502#2771#1" expanded="false" />
+                <element signature="e#2785#3491#1" expanded="false" />
+                <element signature="e#3524#3877#1" expanded="false" />
+                <element signature="e#3895#4206#1" expanded="false" />
+                <element signature="e#4239#4592#1" expanded="false" />
+                <element signature="e#4610#4921#1" expanded="false" />
+                <element signature="e#4953#5221#1" expanded="false" />
+                <element signature="e#5238#5584#1" expanded="false" />
+                <element signature="e#5618#5715#1" expanded="false" />
+                <element signature="e#5734#6432#1" expanded="false" />
+                <element signature="e#6443#6560#1" expanded="false" />
+                <element signature="e#6570#6764#1" expanded="false" />
+                <element signature="e#6773#7746#1" expanded="false" />
+                <element signature="e#7755#9388#1" expanded="false" />
+                <element signature="e#9399#9613#1" expanded="false" />
+                <element signature="e#9626#9943#1" expanded="false" />
+                <element signature="e#9953#10605#1" expanded="false" />
+                <element signature="e#10616#10929#1" expanded="false" />
+                <element signature="e#10950#11171#1" expanded="false" />
+                <element signature="e#11182#11379#1" expanded="false" />
+                <element signature="e#11394#11527#1" expanded="false" />
+                <element signature="e#11538#11741#1" expanded="false" />
+                <element signature="e#11752#14013#1" expanded="false" />
+                <element signature="e#14025#16074#1" expanded="false" />
+                <element signature="e#16087#16652#1" expanded="false" />
+                <element signature="e#16665#17227#1" expanded="false" />
+                <element signature="e#19215#19512#1" expanded="false" />
+                <element signature="e#19525#19813#1" expanded="false" />
+                <element signature="e#19828#19997#1" expanded="false" />
+                <element signature="e#20014#20209#1" expanded="false" />
+                <element signature="e#20225#21190#1" expanded="false" />
+                <element signature="e#21204#21514#1" expanded="false" />
+                <element signature="e#21529#22100#1" expanded="false" />
+                <element signature="e#22114#22529#1" expanded="false" />
+                <element signature="e#22545#23526#1" expanded="false" />
+                <element signature="e#23535#23824#1" expanded="false" />
+                <element signature="e#23835#23965#1" expanded="false" />
+                <element signature="e#23976#24182#1" expanded="false" />
+                <element signature="e#24193#24362#1" expanded="false" />
+                <element signature="e#24373#25401#1" expanded="false" />
+                <element signature="e#25412#25580#1" expanded="false" />
+                <element signature="e#25591#25802#1" expanded="false" />
+                <element signature="e#25815#26036#1" expanded="false" />
+                <element signature="e#27543#30620#1" expanded="false" />
+                <element signature="e#30632#32857#1" expanded="false" />
+                <element signature="e#32873#33253#1" expanded="false" />
+                <element signature="e#33266#34095#1" expanded="false" />
+                <element signature="e#34106#35509#1" expanded="false" />
+                <element signature="e#35523#36462#1" expanded="false" />
+                <element signature="e#36478#36906#1" expanded="false" />
+                <element signature="e#36918#37985#1" expanded="false" />
+                <element signature="e#37994#39425#1" expanded="false" />
+                <element signature="e#39436#40033#1" expanded="false" />
+                <element signature="e#40048#40422#1" expanded="false" />
+                <element signature="e#40440#40664#1" expanded="false" />
+                <element signature="e#40676#40985#1" expanded="false" />
+                <element signature="e#40998#41333#1" expanded="false" />
+                <element signature="e#41346#41427#1" expanded="false" />
+                <element signature="e#41443#42102#1" expanded="false" />
+                <element signature="e#42119#42439#1" expanded="false" />
+                <element signature="e#42457#42667#1" expanded="false" />
+                <element signature="e#42684#44952#1" expanded="false" />
+                <element signature="e#44970#47026#1" expanded="false" />
+                <element signature="e#47045#47617#1" expanded="false" />
+                <element signature="e#47636#48205#1" expanded="false" />
+                <element signature="e#48224#48528#1" expanded="false" />
+                <element signature="e#48539#48902#1" expanded="false" />
+                <element signature="e#48913#49268#1" expanded="false" />
+                <element signature="e#49282#49471#1" expanded="false" />
+                <element signature="e#49484#49667#1" expanded="false" />
+                <element signature="e#49679#49809#1" expanded="false" />
+                <element signature="e#49822#50099#1" expanded="false" />
+                <element signature="e#50112#50199#1" expanded="false" />
+                <element signature="e#50214#50454#1" expanded="false" />
+                <element signature="e#50467#50664#1" expanded="false" />
+                <element signature="e#50679#50874#1" expanded="false" />
+                <element signature="e#50887#50967#1" expanded="false" />
+                <element signature="e#50979#51162#1" expanded="false" />
+                <element signature="e#51179#51264#1" expanded="false" />
+                <element signature="e#51277#51487#1" expanded="false" />
+                <element signature="e#51504#51689#1" expanded="false" />
+                <element signature="e#51702#51783#1" expanded="false" />
+                <element signature="e#51797#52090#1" expanded="false" />
+                <element signature="e#52103#52284#1" expanded="false" />
+                <element signature="e#52300#52539#1" expanded="false" />
+                <element signature="e#52552#52629#1" expanded="false" />
+                <element signature="e#52641#52726#1" expanded="false" />
+                <element signature="e#52737#52872#1" expanded="false" />
+                <element signature="e#52883#53129#1" expanded="false" />
+                <element signature="e#53140#53235#1" expanded="false" />
+                <element signature="e#53250#53373#1" expanded="false" />
+                <element signature="e#53390#53521#1" expanded="false" />
+                <element signature="e#53536#53724#1" expanded="false" />
+                <element signature="e#53738#53876#1" expanded="false" />
+                <element signature="e#53892#54068#1" expanded="false" />
+                <element signature="e#54084#54274#1" expanded="false" />
+                <element signature="e#54292#54488#1" expanded="false" />
+                <element signature="e#54499#54684#1" expanded="false" />
+                <element signature="e#54699#54844#1" expanded="false" />
+                <element signature="e#54855#55312#1" expanded="false" />
+                <element signature="e#55330#55721#1" expanded="false" />
+                <element signature="e#55741#56544#1" expanded="false" />
+                <element signature="e#56565#57226#1" expanded="false" />
+                <element signature="e#57239#57726#1" expanded="false" />
+                <element signature="e#57741#58081#1" expanded="false" />
+                <element signature="e#58096#58288#1" expanded="false" />
+                <element signature="e#58301#58478#1" expanded="false" />
+                <element signature="e#58492#59572#1" expanded="false" />
+                <element signature="e#59587#60359#1" expanded="false" />
+                <element signature="e#60370#62582#1" expanded="false" />
+                <element signature="e#62595#63994#1" expanded="false" />
+                <element signature="e#64007#64384#1" expanded="false" />
+                <element signature="e#64400#65951#1" expanded="false" />
+                <element signature="e#65967#66264#1" expanded="false" />
+                <element signature="e#66279#66464#1" expanded="false" />
+                <element signature="e#66480#67403#1" expanded="false" />
+                <element signature="e#67421#67664#1" expanded="false" />
+                <element signature="e#67677#68839#1" expanded="false" />
+                <element signature="e#68854#68988#1" expanded="false" />
+                <element signature="e#69003#69857#1" expanded="false" />
+                <element signature="e#69874#70014#1" expanded="false" />
+                <element signature="e#70032#70375#1" expanded="false" />
+                <element signature="e#70392#70633#1" expanded="false" />
+                <element signature="e#70645#71107#1" expanded="false" />
+                <element signature="e#71116#72248#1" expanded="false" />
+                <element signature="e#72259#72578#1" expanded="false" />
+                <element signature="e#72592#73216#1" expanded="false" />
+                <element signature="e#73230#73526#1" expanded="false" />
+                <element signature="e#73538#74645#1" expanded="false" />
+                <element signature="e#74658#75447#1" expanded="false" />
+                <element signature="e#75456#77871#1" expanded="false" />
+                <element signature="e#77882#79202#1" expanded="false" />
+                <element signature="e#79213#79576#1" expanded="false" />
+                <element signature="e#79590#81256#1" expanded="false" />
+                <element signature="e#81270#81563#1" expanded="false" />
+                <element signature="e#81576#81757#1" expanded="false" />
+                <element signature="e#81771#82583#1" expanded="false" />
+                <element signature="e#82599#82838#1" expanded="false" />
+                <element signature="e#82855#83134#1" expanded="false" />
+                <element signature="e#83151#83460#1" expanded="false" />
+                <element signature="e#83483#83813#1" expanded="false" />
+                <element signature="e#83829#84014#1" expanded="false" />
+                <element signature="e#84029#84590#1" expanded="false" />
+                <element signature="e#84603#85641#1" expanded="false" />
+                <element signature="e#85657#86325#1" expanded="false" />
+                <element signature="e#86340#86526#1" expanded="false" />
+                <element signature="e#86541#86722#1" expanded="false" />
+                <element signature="e#86739#86883#1" expanded="false" />
+                <element signature="e#86897#87494#1" expanded="false" />
+                <element signature="e#87505#88832#1" expanded="false" />
+                <element signature="e#88845#89076#1" expanded="false" />
+                <element signature="e#89092#90010#1" expanded="false" />
+                <element signature="e#90026#90324#1" expanded="false" />
+                <element signature="e#90337#90529#1" expanded="false" />
+                <element signature="e#90544#90636#1" expanded="false" />
+                <element signature="e#90651#90837#1" expanded="false" />
+                <element signature="e#90850#91116#1" expanded="false" />
+                <element signature="e#91140#91803#1" expanded="false" />
+                <element signature="e#91821#92015#1" expanded="false" />
+                <element signature="e#92031#92595#1" expanded="false" />
+                <element signature="e#92613#92812#1" expanded="false" />
+                <element signature="e#92831#93231#1" expanded="false" />
+                <element signature="e#93246#93442#1" expanded="false" />
+                <element signature="e#93453#94525#1" expanded="false" />
+                <element signature="e#94538#94806#1" expanded="false" />
+                <element signature="e#94819#95210#1" expanded="false" />
+                <element signature="e#95225#95436#1" expanded="false" />
+                <element signature="e#95450#95663#1" expanded="false" />
+                <element signature="e#95679#95888#1" expanded="false" />
+                <element signature="e#95904#96113#1" expanded="false" />
+                <element signature="e#96129#96338#1" expanded="false" />
+                <element signature="e#96354#96563#1" expanded="false" />
+                <element signature="e#96578#96809#1" expanded="false" />
+                <element signature="e#96825#96917#1" expanded="false" />
+                <element signature="e#96929#97024#1" expanded="false" />
+                <element signature="e#97035#97525#1" expanded="false" />
+                <element signature="e#97538#97691#1" expanded="false" />
+                <element signature="e#97703#97930#1" expanded="false" />
+                <element signature="e#97943#98208#1" expanded="false" />
+                <element signature="e#98221#98444#1" expanded="false" />
+                <element signature="e#98457#98587#1" expanded="false" />
+                <element signature="e#98598#98807#1" expanded="false" />
+                <element signature="e#98823#99018#1" expanded="false" />
+                <element signature="e#99032#100303#1" expanded="false" />
+                <element signature="e#100317#100544#1" expanded="false" />
+                <element signature="e#100559#101526#1" expanded="false" />
+                <element signature="e#101540#101730#1" expanded="false" />
+                <element signature="e#101743#101823#1" expanded="false" />
+                <element signature="e#101834#102012#1" expanded="false" />
+                <element signature="e#102023#102239#1" expanded="false" />
+                <element signature="e#102255#102398#1" expanded="false" />
+                <element signature="e#102411#102500#1" expanded="false" />
+                <element signature="e#102518#103134#1" expanded="false" />
+                <element signature="e#103150#103392#1" expanded="false" />
+                <element signature="e#103408#103693#1" expanded="false" />
+                <element signature="e#103708#103901#1" expanded="false" />
+                <element signature="e#103916#103995#1" expanded="false" />
+                <element signature="e#104011#104342#1" expanded="false" />
+                <element signature="e#104355#104488#1" expanded="false" />
+                <element signature="e#104500#104629#1" expanded="false" />
+                <element signature="e#104639#105244#1" expanded="false" />
+                <element signature="e#105261#105444#1" expanded="false" />
+                <element signature="e#105461#105933#1" expanded="false" />
+                <element signature="e#105948#106123#1" expanded="false" />
+                <element signature="e#106138#106353#1" expanded="false" />
+                <element signature="e#106369#107345#1" expanded="false" />
+                <element signature="e#107355#109076#1" expanded="false" />
+                <element signature="e#109090#110167#1" expanded="false" />
+                <element signature="e#110179#110411#1" expanded="false" />
+                <element signature="e#110424#110662#1" expanded="false" />
+                <element signature="e#110674#110865#1" expanded="false" />
+                <element signature="e#110878#111087#1" expanded="false" />
+                <element signature="e#111105#111445#1" expanded="false" />
+                <element signature="e#111460#111670#1" expanded="false" />
+                <element signature="e#111681#111773#1" expanded="false" />
+                <element signature="e#111787#111969#1" expanded="false" />
+                <element signature="e#111980#112233#1" expanded="false" />
+                <element signature="e#112248#112571#1" expanded="false" />
+                <element signature="e#112584#112996#1" expanded="false" />
+                <element signature="e#113011#113146#1" expanded="false" />
+                <element signature="e#113159#113289#1" expanded="false" />
+                <element signature="e#113300#114869#1" expanded="false" />
+                <element signature="e#114884#118061#1" expanded="false" />
+                <element signature="e#118076#118212#1" expanded="false" />
+                <element signature="e#118225#119715#1" expanded="false" />
+                <element signature="e#119729#119822#1" expanded="false" />
+                <element signature="e#119834#120026#1" expanded="false" />
+                <element signature="e#120045#120465#1" expanded="false" />
+                <element signature="e#120482#120670#1" expanded="false" />
+                <element signature="e#120685#121125#1" expanded="false" />
+                <element signature="e#121142#121333#1" expanded="false" />
+                <element signature="e#121348#121763#1" expanded="false" />
+                <element signature="e#121778#121915#1" expanded="false" />
+                <element signature="e#121928#122540#1" expanded="false" />
+                <element signature="e#122562#122650#1" expanded="false" />
+                <element signature="e#122670#123033#1" expanded="false" />
+                <element signature="e#123057#123340#1" expanded="false" />
+                <element signature="e#123368#123512#1" expanded="false" />
+                <element signature="e#123527#123939#1" expanded="false" />
+                <element signature="e#123956#124225#1" expanded="false" />
+                <element signature="e#124241#124430#1" expanded="false" />
+                <element signature="e#124450#124589#1" expanded="false" />
+                <element signature="e#124605#124796#1" expanded="false" />
+                <element signature="e#124816#124955#1" expanded="false" />
+                <element signature="e#124968#125375#1" expanded="false" />
+                <element signature="e#125390#125625#1" expanded="false" />
+                <element signature="e#125646#125898#1" expanded="false" />
+                <element signature="e#125917#127267#1" expanded="false" />
+                <element signature="e#127284#127432#1" expanded="false" />
+                <element signature="e#127447#127729#1" expanded="false" />
+                <element signature="e#127741#127878#1" expanded="false" />
+                <element signature="e#127900#128088#1" expanded="false" />
+                <element signature="e#128100#128658#1" expanded="false" />
+                <element signature="e#128672#128942#1" expanded="false" />
+                <element signature="e#128955#131132#1" expanded="false" />
+                <element signature="e#131145#133324#1" expanded="false" />
+                <element signature="e#133339#135334#1" expanded="false" />
+                <element signature="e#135345#137521#1" expanded="false" />
+                <element signature="e#137541#139801#1" expanded="false" />
+                <element signature="e#139812#142401#1" expanded="false" />
+                <element signature="e#142412#145085#1" expanded="false" />
+                <element signature="e#145100#146929#1" expanded="false" />
+                <element signature="e#146944#148881#1" expanded="false" />
+                <element signature="e#148894#149897#1" expanded="false" />
+                <element signature="e#149910#151090#1" expanded="false" />
+                <element signature="e#151103#152110#1" expanded="false" />
+                <element signature="e#152123#153214#1" expanded="false" />
+                <element signature="e#153235#154609#1" expanded="false" />
+                <element signature="e#154630#155959#1" expanded="false" />
+                <element signature="e#155974#156689#1" expanded="false" />
+                <element signature="e#156700#156857#1" expanded="false" />
+                <element signature="e#156872#157801#1" expanded="false" />
+                <element signature="e#157814#158118#1" expanded="false" />
+                <element signature="e#158138#158595#1" expanded="false" />
+                <element signature="e#158615#159025#1" expanded="false" />
+                <element signature="e#159049#160015#1" expanded="false" />
+                <element signature="e#160039#161089#1" expanded="false" />
+                <element signature="e#161104#163128#1" expanded="false" />
+                <element signature="e#163144#164547#1" expanded="false" />
+                <element signature="e#164562#164782#1" expanded="false" />
+                <element signature="e#164795#165978#1" expanded="false" />
+                <element signature="e#165991#167085#1" expanded="false" />
+                <element signature="e#167114#168167#1" expanded="false" />
+                <element signature="e#168184#168458#1" expanded="false" />
+                <element signature="e#168473#169386#1" expanded="false" />
+                <element signature="e#169399#171657#1" expanded="false" />
+                <element signature="e#171670#173930#1" expanded="false" />
+                <element signature="e#173947#176023#1" expanded="false" />
+                <element signature="e#176041#176314#1" expanded="false" />
+                <element signature="e#176334#176552#1" expanded="false" />
+                <element signature="e#176567#176746#1" expanded="false" />
+                <element signature="e#176769#176954#1" expanded="false" />
+                <element signature="e#176969#177223#1" expanded="false" />
+                <element signature="e#177238#177405#1" expanded="false" />
+                <element signature="e#177422#177519#1" expanded="false" />
+                <element signature="e#177532#177705#1" expanded="false" />
+                <element signature="e#177720#177851#1" expanded="false" />
+                <element signature="e#177866#178044#1" expanded="false" />
+                <element signature="e#178060#178285#1" expanded="false" />
+                <element signature="e#178302#180282#1" expanded="false" />
+                <element signature="e#180295#182092#1" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ctpwzadapter.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/wzadapter/ctpwzadapter.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="124" column="38" selection-start-line="124" selection-start-column="38" selection-end-line="124" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wzdatastruct.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/wzadapter/wzdatastruct.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="284" column="32" selection-start-line="284" selection-start-column="32" selection-end-line="284" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wzconstant.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/include/wzadapter/wzconstant.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="92" column="29" selection-start-line="92" selection-start-column="8" selection-end-line="92" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ctptdengine.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/td/ctptdengine.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="358">
+              <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+              <folding>
+                <element signature="e#179#197#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -70,85 +512,35 @@
       <file leaf-file-name="tdengine.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/include/td/tdengine.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mytest.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/mytest.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ctpmdengine.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/md/ctpmdengine.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="58" column="11" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
+            <state relative-caret-position="386">
+              <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
               <folding>
-                <element signature="e#178#196#0" expanded="true" />
+                <element signature="e#171#199#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ctptdengine.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ctptdengine.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/td/ctptdengine.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mdengine.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/md/mdengine.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+            <state relative-caret-position="206">
+              <caret line="106" column="28" selection-start-line="106" selection-start-column="28" selection-end-line="106" selection-end-column="28" />
               <folding>
-                <element signature="e#36#64#0" expanded="true" />
+                <element signature="e#129#148#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mdengine.h" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/include/md/mdengine.h">
+      <file leaf-file-name="tdengine.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/td/tdengine.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            <state relative-caret-position="336">
+              <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
               <folding>
-                <element signature="e#166#194#0" expanded="true" />
+                <element signature="e#129#157#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="baseengine.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/include/base/baseengine.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="baseengine.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/base/baseengine.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -177,12 +569,18 @@
         <option value="$PROJECT_DIR$/src/strategy/basestrategy.cpp" />
         <option value="$PROJECT_DIR$/src/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/include/wzadapter/wzconstant.h" />
-        <option value="$PROJECT_DIR$/include/md/mdengine.h" />
         <option value="$PROJECT_DIR$/include/md/ctpmdengine.h" />
-        <option value="$PROJECT_DIR$/tests/mytest.cpp" />
         <option value="$PROJECT_DIR$/src/base/baseengine.cpp" />
         <option value="$PROJECT_DIR$/src/md/mdengine.cpp" />
+        <option value="$PROJECT_DIR$/include/md/mdengine.h" />
+        <option value="$PROJECT_DIR$/include/td/tdengine.h" />
+        <option value="$PROJECT_DIR$/include/td/ctptdengine.h" />
+        <option value="$PROJECT_DIR$/doc/KnowledgePoints.md" />
+        <option value="$PROJECT_DIR$/src/td/tdengine.cpp" />
         <option value="$PROJECT_DIR$/src/md/ctpmdengine.cpp" />
+        <option value="$PROJECT_DIR$/include/wzadapter/ctpwzadapter.h" />
+        <option value="$PROJECT_DIR$/tests/mytest.cpp" />
+        <option value="$PROJECT_DIR$/src/td/ctptdengine.cpp" />
       </list>
     </option>
   </component>
@@ -367,6 +765,10 @@
               <option name="myItemId" value="include" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wzadapter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -399,8 +801,58 @@
               <option name="myItemId" value="include" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CtpSystem" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CtpSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="include" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="md" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CtpSystem" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CtpSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="include" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ctp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CtpSystem" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CtpSystem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="doc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -410,7 +862,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="ctpmden&#9;FILE&#9;file:///home/w2w/Code/quant/CtpSystem/CtpSystem/src/md/ctpmdengine.cpp&#10;mden&#9;FILE&#9;file:///home/w2w/Code/quant/CtpSystem/CtpSystem/include/md/mdengine.h&#10;ctpmdengin&#9;FILE&#9;file:///home/w2w/Code/quant/CtpSystem/CtpSystem/src/md/ctpmdengine.cpp&#10;CreateFtdcMdApi&#9;null&#9;null&#10;ctpwzad&#9;FILE&#9;file:///home/w2w/Code/quant/CtpSystem/CtpSystem/src/wzadapter/ctpwzadapter.cpp&#10;exc&#9;null&#9;null&#10;ctpmd&#9;FILE&#9;file:///home/w2w/Code/quant/CtpSystem/CtpSystem/include/md/ctpmdengine.h&#10;CTPMDEN&#9;FILE&#9;file:///home/w2w/Code/quant/CtpSystem/CtpSystem/src/md/ctpmdengine.cpp&#10;EXCHANGE_SSE&#9;null&#9;null&#10;ctpwzadap&#9;FILE&#9;file:///home/w2w/Code/quant/CtpSystem/CtpSystem/src/wzadapter/ctpwzadapter.cpp&#10;baseen&#9;FILE&#9;file:///home/w2w/Code/quant/CtpSystem/CtpSystem/src/base/baseengine.cpp&#10;setting&#9;ACTION&#9;ShowSettings&#10;head&#9;ACTION&#9;Git.Reset" />
+    <property name="SearchEverywhereHistoryKey" value="ctptden&#9;FILE&#9;file:///home/w2w/Code/quant/CtpSystem/CtpSystem/src/td/ctptdengine.cpp&#10;td&#9;FILE&#9;file:///home/w2w/Code/quant/CtpSystem/CtpSystem/include/td/tdengine.h&#10;mytes&#9;FILE&#9;file:///home/w2w/Code/quant/CtpSystem/CtpSystem/tests/mytest.cpp&#10;ctptdeng&#9;FILE&#9;file:///home/w2w/Code/quant/CtpSystem/CtpSystem/src/td/ctptdengine.cpp&#10;tdengine.h&#9;FILE&#9;file:///home/w2w/Code/quant/CtpSystem/CtpSystem/include/td/tdengine.h&#10;ctpmden&#9;FILE&#9;file:///home/w2w/Code/quant/CtpSystem/CtpSystem/src/md/ctpmdengine.cpp&#10;mden&#9;FILE&#9;file:///home/w2w/Code/quant/CtpSystem/CtpSystem/include/md/mdengine.h&#10;ctpmdengin&#9;FILE&#9;file:///home/w2w/Code/quant/CtpSystem/CtpSystem/src/md/ctpmdengine.cpp&#10;CreateFtdcMdApi&#9;null&#9;null&#10;ctpwzad&#9;FILE&#9;file:///home/w2w/Code/quant/CtpSystem/CtpSystem/src/wzadapter/ctpwzadapter.cpp&#10;exc&#9;null&#9;null&#10;ctpmd&#9;FILE&#9;file:///home/w2w/Code/quant/CtpSystem/CtpSystem/include/md/ctpmdengine.h&#10;CTPMDEN&#9;FILE&#9;file:///home/w2w/Code/quant/CtpSystem/CtpSystem/src/md/ctpmdengine.cpp&#10;EXCHANGE_SSE&#9;null&#9;null&#10;ctpwzadap&#9;FILE&#9;file:///home/w2w/Code/quant/CtpSystem/CtpSystem/src/wzadapter/ctpwzadapter.cpp&#10;baseen&#9;FILE&#9;file:///home/w2w/Code/quant/CtpSystem/CtpSystem/src/base/baseengine.cpp&#10;setting&#9;ACTION&#9;ShowSettings&#10;head&#9;ACTION&#9;Git.Reset" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
@@ -645,12 +1097,13 @@
       <workItem from="1519887500499" duration="10240000" />
       <workItem from="1519923030339" duration="6214000" />
       <workItem from="1519948983322" duration="20550000" />
-      <workItem from="1520212999444" duration="4304000" />
+      <workItem from="1520212999444" duration="7209000" />
+      <workItem from="1520231817048" duration="13809000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41308000" />
+    <option name="totallyTimeSpent" value="58022000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
@@ -700,22 +1153,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/api/ctp/ThostFtdcMdApi.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1746">
-          <caret line="97" column="17" selection-start-line="97" selection-start-column="17" selection-end-line="97" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -747,7 +1184,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#182#198#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -777,7 +1216,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -854,10 +1292,204 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/include/strategy/basestrategy.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/CMakeCache.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/cmake_install.cmake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/api/ctp/ThostFtdcMdApi.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="143" column="31" selection-start-line="143" selection-start-column="31" selection-end-line="143" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base/baseengine.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/base/baseengine.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/api/ctp/ThostFtdcTraderApi.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7758">
+          <caret line="431" column="32" selection-start-line="431" selection-start-column="32" selection-end-line="431" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/md/ctpmdengine.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="e#178#196#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/md/mdengine.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="24" selection-end-column="54" />
+          <folding>
+            <element signature="e#36#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/md/mdengine.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/md/ctpmdengine.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+          <folding>
+            <element signature="e#130#149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/td/tdengine.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+          <folding>
+            <element signature="e#129#157#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/KnowledgePoints.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="234">
+            <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/td/tdengine.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+          <folding>
+            <element signature="e#171#199#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="54">
+            <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/td/ctptdengine.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+          <folding>
+            <element signature="e#179#197#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/wzadapter/wzconstant.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="92" column="29" selection-start-line="92" selection-start-column="8" selection-end-line="92" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/wzadapter/wzdatastruct.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="284" column="32" selection-start-line="284" selection-start-column="32" selection-end-line="284" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/wzadapter/ctpwzadapter.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="124" column="38" selection-start-line="124" selection-start-column="38" selection-end-line="124" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/include/api/ctp/ThostFtdcUserApiStruct.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="817" column="37" selection-start-line="817" selection-start-column="37" selection-end-line="817" selection-end-column="37" />
+        <state relative-caret-position="422">
+          <caret line="1249" column="31" selection-start-line="1249" selection-start-column="24" selection-end-line="1249" selection-end-column="31" />
           <folding>
             <element signature="e#0#73#0" expanded="false" />
             <element signature="e#460#601#1" expanded="false" />
@@ -910,7 +1542,6 @@
             <element signature="e#25412#25580#1" expanded="false" />
             <element signature="e#25591#25802#1" expanded="false" />
             <element signature="e#25815#26036#1" expanded="false" />
-            <element signature="e#26047#27534#1" expanded="false" />
             <element signature="e#27543#30620#1" expanded="false" />
             <element signature="e#30632#32857#1" expanded="false" />
             <element signature="e#32873#33253#1" expanded="false" />
@@ -1173,187 +1804,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/include/strategy/basestrategy.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/wzadapter/ctpwzadapter.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-72">
-          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/wzadapter/wzdatastruct.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/CMakeCache.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/Makefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/cmake_install.cmake">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/api/ctp/ThostFtdcTraderApi.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4068">
-          <caret line="226" column="17" selection-start-line="226" selection-start-column="17" selection-end-line="226" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/td/tdengine.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/wzadapter/wzconstant.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/api/ctp/ThostFtdcMdApi.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="143" column="31" selection-start-line="143" selection-start-column="31" selection-end-line="143" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/mytest.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/base/baseengine.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/base/baseengine.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-          <folding />
+        <state relative-caret-position="512">
+          <caret line="60" column="18" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
+          <folding>
+            <element signature="e#182#198#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/td/ctptdengine.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/md/mdengine.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+        <state relative-caret-position="206">
+          <caret line="106" column="28" selection-start-line="106" selection-start-column="28" selection-end-line="106" selection-end-column="28" />
           <folding>
-            <element signature="e#36#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/md/ctpmdengine.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="100" column="25" selection-start-line="100" selection-start-column="25" selection-end-line="100" selection-end-column="25" />
-          <folding>
-            <element signature="e#130#149#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/td/ctptdengine.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/td/tdengine.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/md/ctpmdengine.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="58" column="11" selection-start-line="58" selection-start-column="11" selection-end-line="58" selection-end-column="11" />
-          <folding>
-            <element signature="e#178#196#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/include/md/mdengine.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding>
-            <element signature="e#166#194#0" expanded="true" />
+            <element signature="e#129#148#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -141,6 +141,8 @@ inline struct CThostFtdcInputOrderField parseTo(const struct WZInputOrderField& 
 	res.StopPrice = WZ.StopPrice;
 	res.IsAutoSuspend = WZ.IsAutoSuspend;
 	res.ContingentCondition = WZ.ContingentCondition;
+	// 自己加的
+	strcpy(res.GTDDate, "");
 	return res;
 }
 

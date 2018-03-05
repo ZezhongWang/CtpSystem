@@ -26,7 +26,7 @@ void CTPMdEngine::Connect(){
         api->RegisterSpi(this);
     }
     if (!connected) {
-        char Md_address[] = "tcp://180.168.146.187:10010";
+        char Md_address[] = "tcp://180.168.146.187:10031";
         api->RegisterFront(Md_address);
         api->Init();
         clock_t time_out = 3*CLOCKS_PER_SEC;
@@ -71,6 +71,11 @@ void CTPMdEngine::OnRspUserLogin(CThostFtdcRspUserLoginField *pRspUserLogin, CTh
 
 
 }
+void CTPMdEngine::Block() {
+    api->Join();
+    api->Release();
+}
+
 void CTPMdEngine::OnFrontConnected(){
     cout<<"Call OnFrontConnected function"<<endl;
     cout<<"Connect Success"<<endl;
@@ -103,10 +108,5 @@ void CTPMdEngine::subscribeMarketData(const vector<string>& instruments, const v
         insts[i] = (char*)instruments[i].c_str();
     }
     api->SubscribeMarketData(insts, n_count);
-}
-
-void CTPMdEngine::Block() {
-    api->Join();
-    api->Release();
 }
 

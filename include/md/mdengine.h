@@ -18,8 +18,8 @@ class MdEngine: public BaseEngine
 public:
     MdEngine(const short source = 0);
 public:
-    virtual void subscribeMarketData(const vector<string>& instruments, const vector<string>& markets){};
-    virtual void subscribeOrderTrade(const vector<string>& instruments, const vector<string>& markets){};
+    virtual void subscribeMarketData(const vector<string>& instruments, const vector<string>& markets) = 0;
+//    virtual void subscribeOrderTrade(const vector<string>& instruments, const vector<string>& markets) = 0;
     void on_market_data(const WZMarketDataField* data);
 
 };
