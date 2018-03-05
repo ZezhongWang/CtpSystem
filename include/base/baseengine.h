@@ -22,11 +22,12 @@ public:
     ~BaseEngine();
 
     void initialize(const string &json_str);
-//
+
 //    virtual void init() = 0;
 //    virtual void load() = 0;
-//    virtual void connect() = 0;
-//    virtual void func() = 0;
+    virtual void Connect() = 0;
+    virtual void Login() = 0;
+    virtual void Block() = 0;
 };
 
 #endif

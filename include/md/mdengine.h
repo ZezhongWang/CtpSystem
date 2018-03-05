@@ -8,13 +8,19 @@
 #define MD_ENGINE_H
 
 #include <base/baseengine.h>
+#include <wzadapter/wzdatastruct.h>
+#include <vector>
+
+using std::vector;
 
 class MdEngine: public BaseEngine
 {
 public:
     MdEngine(const short source = 0);
 public:
-    //virtual void subscribeMarketData(const vector<string>& instruments, const vector<string>& markets) {};
+    virtual void subscribeMarketData(const vector<string>& instruments, const vector<string>& markets){};
+    virtual void subscribeOrderTrade(const vector<string>& instruments, const vector<string>& markets){};
+    void on_market_data(const WZMarketDataField* data);
 
 };
 

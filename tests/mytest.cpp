@@ -7,11 +7,24 @@
 
 #include "md/ctpmdengine.h"
 
+#define M_TICKER "rb1801"
+
+#include <ctime>
 
 void TestAdapter(){
     CTPMdEngine* md = new CTPMdEngine();
-    md->connect();
-    md->login();
+    md->Connect();
+    md->Login();
+
+//    md->subscribeMarketData();
+    vector<string> tickers;
+    tickers.push_back(M_TICKER);
+    tickers.push_back("al1805");
+    vector<string> markets;
+    markets.push_back("CTP");
+    md->subscribeMarketData(tickers, markets);
+
+    md->Block();
 }
 
 

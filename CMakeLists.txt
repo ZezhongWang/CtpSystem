@@ -3,17 +3,17 @@ project(CtpSystem)
 
 # include directories
 INCLUDE_DIRECTORIES(
-  ${PROJECT_SOURCE_DIR}/include
-  /usr/local/include
-  /usr/include
+ ${PROJECT_SOURCE_DIR}/include
+ /usr/local/include
+ /usr/include
 )
 
 # lib directories
 LINK_DIRECTORIES(
-  ${CMAKE_CURRENT_SOURCE_DIR}/lib
-  ${PROJECT_BINARY_DIR}/lib
-  /usr/local/lib
-  /usr/lib
+ ${CMAKE_CURRENT_SOURCE_DIR}/lib
+ ${PROJECT_BINARY_DIR}/lib
+ /usr/local/lib
+ /usr/lib
 )
 
 SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)

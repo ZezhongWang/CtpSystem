@@ -4,9 +4,9 @@
 
 #include <base/baseengine.h>
 
-BaseEngine::BaseEngine(const short source): source_id(source), is_running(false) {}
+BaseEngine::BaseEngine(const short source): source_id(source), is_running(true) {}
 
 BaseEngine::~BaseEngine() {}
 
-void BaseEngine::initialize(const string &json_str) {}
+//void BaseEngine::initialize(const string &json_str) {}
 

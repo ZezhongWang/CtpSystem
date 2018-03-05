@@ -10,10 +10,10 @@ SET(CTP_SYSTEM_SRCS
 )
 
 LINK_DIRECTORIES(
-  ${CMAKE_CURRENT_SOURCE_DIR}/../lib/api/ctp
-  ${PROJECT_BINARY_DIR}/lib
-  /usr/local/lib
-  /usr/lib
+ ${CMAKE_CURRENT_SOURCE_DIR}/../lib/api/ctp
+ ${PROJECT_BINARY_DIR}/lib
+ /usr/local/lib
+ /usr/lib
 )
 
 # shared library
