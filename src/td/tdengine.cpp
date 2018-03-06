@@ -40,3 +40,14 @@ void TdEngine::on_rsp_order_insert(const WZInputOrderField *order, int requestId
             <<"\tExchangeID\t"<<order->ExchangeID<<endl;
     }
 }
+
+void TdEngine::on_rtn_order(const WZRtnOrderField *rtn_order) {
+    cout<<"Call on_rtn_order function"<<endl;
+    cout<<"ExchangeID\t"<<rtn_order->ExchangeID
+        <<"\tDirection\t"<<rtn_order->Direction
+        <<"\tBusinessUnit\t"<<rtn_order->BusinessUnit
+        <<"\tInstrumentID\t"<<rtn_order->InstrumentID
+        <<"\tInvestorID\t"<<rtn_order->InvestorID<<endl;
+
+
+}

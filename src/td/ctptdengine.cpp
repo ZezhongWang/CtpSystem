@@ -24,7 +24,7 @@ void CTPTdEngine::Connect(){
         api->RegisterSpi(this);
     }
     if (!connected) {
-        char Td_address[] = "tcp://180.168.146.187:10030";
+        char Td_address[] = "tcp://180.168.146.187:10000";
         api->RegisterFront(Td_address);
         api->Init();
         clock_t time_out = 3*CLOCKS_PER_SEC;
@@ -101,6 +101,28 @@ void CTPTdEngine::OnRspQryTradingAccount(CThostFtdcTradingAccountField *pTrading
 void CTPTdEngine::req_order_insert(const WZInputOrderField *data, int account_index, int requestId, long rcv_time) {
     cout<<"Call req_order_insert function"<<endl;
     CThostFtdcInputOrderField req = parseTo(*data);
+
+//    CThostFtdcInputOrderField req;
+//    memset(&req, 0, sizeof(req));
+//    strcpy(req.BrokerID, "9999");
+//    strcpy(req.InvestorID, "111048");
+//    strcpy(req.InstrumentID, "al1803");
+//    strcpy(req.OrderRef, "5");
+//    // 不确定
+//    strcpy(order->UserID, "13226602970");
+//    req.OrderPriceType = THOST_FTDC_OPT_LimitPrice;
+//    req.Direction = THOST_FTDC_D_Buy;
+//    req.CombOffsetFlag[0] = THOST_FTDC_OF_Open;
+//    req.CombHedgeFlag[0] = THOST_FTDC_HF_Speculation;
+//    req.LimitPrice = 50000;
+//    req.VolumeTotalOriginal = 5;
+//    req.TimeCondition = THOST_FTDC_TC_GFD;
+//    req.VolumeCondition = THOST_FTDC_VC_AV;
+//    req.MinVolume = 1;
+//    req.ContingentCondition = THOST_FTDC_CC_Immediately;
+//    req.ForceCloseReason = THOST_FTDC_FCC_NotForceClose;
+//    req.IsAutoSuspend = 0;
+//    req.UserForceClose = 0;
     int rtn_val;
     if((rtn_val = api->ReqOrderInsert(&req, ++requestId))){
         cout<<"Request Order Insert failed:"
@@ -119,8 +141,18 @@ void CTPTdEngine::OnRspOrderInsert(CThostFtdcInputOrderField *pInputOrder, CThos
         cout<<"order insert failed:"
             <<" error id "
             <<errorId<<endl;
+    } else{
+        cout<<"order insert success"<<endl;
     }
     on_rsp_order_insert(&data, nRequestID, errorId, errorMsg);
+}
+
+
+void CTPTdEngine::OnRtnOrder(CThostFtdcOrderField *pOrder) {
+    WZRtnOrderField rtn_order = parseFrom(*pOrder);
+    on_rtn_order(&rtn_order);
+
+
 }
 //void CTPTdEngine::req_order_insert(const WZInputOrderField *data, int account_index, int requestId, long rcv_time) {
 //

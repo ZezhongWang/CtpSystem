@@ -26,7 +26,7 @@ public:
                         int errorId=0, const char* errorMsg=NULL);
     void on_rsp_order_insert(const WZInputOrderField* order, int requestId,
                              int errorId=0, const char* errorMsg=NULL);
-
+    void on_rtn_order(const WZRtnOrderField* rtn_order);
 };
 
 

@@ -26,7 +26,7 @@ void CTPMdEngine::Connect(){
         api->RegisterSpi(this);
     }
     if (!connected) {
-        char Md_address[] = "tcp://180.168.146.187:10031";
+        char Md_address[] = "tcp://180.168.146.187:10010";
         api->RegisterFront(Md_address);
         api->Init();
         clock_t time_out = 3*CLOCKS_PER_SEC;
@@ -68,9 +68,8 @@ void CTPMdEngine::OnRspUserLogin(CThostFtdcRspUserLoginField *pRspUserLogin, CTh
     else{
         logged_in = true;
     }
-
-
 }
+
 void CTPMdEngine::Block() {
     api->Join();
     api->Release();

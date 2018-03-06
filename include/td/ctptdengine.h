@@ -236,7 +236,7 @@ public:
     virtual void OnRspError(CThostFtdcRspInfoField *pRspInfo, int nRequestID, bool bIsLast) {};
 
     ///报单通知
-    virtual void OnRtnOrder(CThostFtdcOrderField *pOrder) {};
+    virtual void OnRtnOrder(CThostFtdcOrderField *pOrder);
 
     ///成交通知
     virtual void OnRtnTrade(CThostFtdcTradeField *pTrade) {};
