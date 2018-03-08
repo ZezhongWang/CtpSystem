@@ -23,6 +23,7 @@ private:
 	bool logged_in;
 	int req_id;
 
+
 public:
     virtual void Connect();
     virtual void Login();

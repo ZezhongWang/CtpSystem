@@ -24,8 +24,9 @@ void CTPTdEngine::Connect(){
         api->RegisterSpi(this);
     }
     if (!connected) {
-        char Td_address[] = "tcp://180.168.146.187:10000";
-        api->RegisterFront(Td_address);
+        api->RegisterFront((char*)(this->tdAddress).c_str());
+        api->SubscribePublicTopic(THOST_TERT_QUICK);
+        api->SubscribePrivateTopic(THOST_TERT_QUICK);
         api->Init();
         clock_t time_out = 3*CLOCKS_PER_SEC;
         clock_t start = clock();
@@ -38,10 +39,9 @@ void CTPTdEngine::Login(){
     if (!logged_in) {
         CThostFtdcReqUserLoginField req;
         memset(&req, 0, sizeof(req));
-        // which field is neccesary ?
-        strcpy(req.BrokerID, "9999");
-        strcpy(req.UserID, "111048");
-        strcpy(req.Password, "9992xqq");
+        strcpy(req.BrokerID, this->brokerId);
+        strcpy(req.UserID, this->userId);
+        strcpy(req.Password, this->passWord);
         int rtn_code;
         if ((rtn_code = api->ReqUserLogin(&req, req_id++))) {
             cout<<"login failed:"
@@ -101,28 +101,6 @@ void CTPTdEngine::OnRspQryTradingAccount(CThostFtdcTradingAccountField *pTrading
 void CTPTdEngine::req_order_insert(const WZInputOrderField *data, int account_index, int requestId, long rcv_time) {
     cout<<"Call req_order_insert function"<<endl;
     CThostFtdcInputOrderField req = parseTo(*data);
-
-//    CThostFtdcInputOrderField req;
-//    memset(&req, 0, sizeof(req));
-//    strcpy(req.BrokerID, "9999");
-//    strcpy(req.InvestorID, "111048");
-//    strcpy(req.InstrumentID, "al1803");
-//    strcpy(req.OrderRef, "5");
-//    // 不确定
-//    strcpy(order->UserID, "13226602970");
-//    req.OrderPriceType = THOST_FTDC_OPT_LimitPrice;
-//    req.Direction = THOST_FTDC_D_Buy;
-//    req.CombOffsetFlag[0] = THOST_FTDC_OF_Open;
-//    req.CombHedgeFlag[0] = THOST_FTDC_HF_Speculation;
-//    req.LimitPrice = 50000;
-//    req.VolumeTotalOriginal = 5;
-//    req.TimeCondition = THOST_FTDC_TC_GFD;
-//    req.VolumeCondition = THOST_FTDC_VC_AV;
-//    req.MinVolume = 1;
-//    req.ContingentCondition = THOST_FTDC_CC_Immediately;
-//    req.ForceCloseReason = THOST_FTDC_FCC_NotForceClose;
-//    req.IsAutoSuspend = 0;
-//    req.UserForceClose = 0;
     int rtn_val;
     if((rtn_val = api->ReqOrderInsert(&req, ++requestId))){
         cout<<"Request Order Insert failed:"
@@ -151,13 +129,37 @@ void CTPTdEngine::OnRspOrderInsert(CThostFtdcInputOrderField *pInputOrder, CThos
 void CTPTdEngine::OnRtnOrder(CThostFtdcOrderField *pOrder) {
     WZRtnOrderField rtn_order = parseFrom(*pOrder);
     on_rtn_order(&rtn_order);
-
-
 }
-//void CTPTdEngine::req_order_insert(const WZInputOrderField *data, int account_index, int requestId, long rcv_time) {
-//
-//}
 
-//void CTPTdEngine::req_order_action(const WZOrderActionField *data, int account_index, int requestId, long rcv_time) {
-//
-//}
+void CTPTdEngine::OnRtnTrade(CThostFtdcTradeField *pTrade){
+    WZRtnTradeField rtn_trade = parseFrom(*pTrade);
+    on_rtn_trade(&rtn_trade);
+}
+
+void CTPTdEngine::OnErrRtnOrderInsert(CThostFtdcInputOrderField *pInputOrder, CThostFtdcRspInfoField *pRspInfo) {
+    cout<<"Call OnErrRtnOrderInsert:"
+        <<" Error Id "
+        <<pRspInfo->ErrorID<<endl;
+}
+
+
+void CTPTdEngine::OnRspOrderAction(CThostFtdcInputOrderActionField *pInputOrderAction, CThostFtdcRspInfoField *pRspInfo,
+                                   int nRequestID, bool bIsLast) {
+    cout<<"Call OnRspOrderInsert function"<<endl;
+    int errorId = (pRspInfo == NULL) ? 0 : pRspInfo->ErrorID;
+    const char* errorMsg = (pRspInfo == NULL) ? NULL : pRspInfo->ErrorMsg;
+    WZOrderActionField data = parseFrom(*pInputOrderAction);
+    on_rsp_order_action(&data, nRequestID, errorId, errorMsg);
+}
+
+void CTPTdEngine::req_order_action(const WZOrderActionField *data, int account_index,
+                                   int requestId, long rcv_time) {
+    cout<<"Call req_order_action function"<<endl;
+    CThostFtdcInputOrderActionField req = parseTo(*data);
+    int rtn_val;
+    if((rtn_val = api->ReqOrderAction(&req, ++requestId))){
+        cout<<"Order Action Failed:"
+            <<" ErrorId "
+            <<rtn_val<<endl;
+    }
+}

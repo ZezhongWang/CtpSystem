@@ -26,8 +26,7 @@ void CTPMdEngine::Connect(){
         api->RegisterSpi(this);
     }
     if (!connected) {
-        char Md_address[] = "tcp://180.168.146.187:10010";
-        api->RegisterFront(Md_address);
+        api->RegisterFront((char*)(this->mdAddress).c_str());
         api->Init();
         clock_t time_out = 3*CLOCKS_PER_SEC;
         clock_t start = clock();
@@ -41,9 +40,9 @@ void CTPMdEngine::Login(){
         CThostFtdcReqUserLoginField req;
         memset(&req, 0, sizeof(req));
         // which field is neccesary ?
-        strcpy(req.BrokerID, "9999");
-        strcpy(req.UserID, "111048");
-        strcpy(req.Password, "9992xqq");
+        strcpy(req.BrokerID, this->brokerId);
+        strcpy(req.UserID, this->userId);
+        strcpy(req.Password, this->passWord);
         int rtn_code;
         if ((rtn_code = api->ReqUserLogin(&req, req_id++))) {
             cout<<"login failed:"

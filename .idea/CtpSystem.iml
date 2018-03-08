@@ -7,11 +7,14 @@
       <sourceFolder url="file://$MODULE_DIR$/src/md/ctpmdengine.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/td/tdengine.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/td/ctptdengine.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/util/iniparser.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/base/baseengine.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/log/logger.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/strategy/basestrategy.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/tests/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tests/runmd.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tests/runtd.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/tests/mytest.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tests/CMakeLists.txt" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />

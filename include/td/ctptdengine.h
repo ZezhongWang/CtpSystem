@@ -31,7 +31,7 @@ public:
 
     virtual void req_qry_account(const WZQryAccountField* data, int account_index, int requestId);
     virtual void req_order_insert(const WZInputOrderField* data, int account_index, int request, long rcv_time);
-
+    virtual void req_order_action(const WZOrderActionField* data, int account_index, int requestId, long rcv_time);
 //    virtual void req_order_action(const LFOrderActionField* data, int account_index, int requestId, long rcv_time) = 0;
 public:
     CTPTdEngine();
@@ -80,7 +80,7 @@ public:
     virtual void OnRspParkedOrderAction(CThostFtdcParkedOrderActionField *pParkedOrderAction, CThostFtdcRspInfoField *pRspInfo, int nRequestID, bool bIsLast) {};
 
     ///报单操作请求响应
-    virtual void OnRspOrderAction(CThostFtdcInputOrderActionField *pInputOrderAction, CThostFtdcRspInfoField *pRspInfo, int nRequestID, bool bIsLast) {};
+    virtual void OnRspOrderAction(CThostFtdcInputOrderActionField *pInputOrderAction, CThostFtdcRspInfoField *pRspInfo, int nRequestID, bool bIsLast);
 
     ///查询最大报单数量响应
     virtual void OnRspQueryMaxOrderVolume(CThostFtdcQueryMaxOrderVolumeField *pQueryMaxOrderVolume, CThostFtdcRspInfoField *pRspInfo, int nRequestID, bool bIsLast) {};
@@ -239,10 +239,10 @@ public:
     virtual void OnRtnOrder(CThostFtdcOrderField *pOrder);
 
     ///成交通知
-    virtual void OnRtnTrade(CThostFtdcTradeField *pTrade) {};
+    virtual void OnRtnTrade(CThostFtdcTradeField *pTrade);
 
     ///报单录入错误回报
-    virtual void OnErrRtnOrderInsert(CThostFtdcInputOrderField *pInputOrder, CThostFtdcRspInfoField *pRspInfo) {};
+    virtual void OnErrRtnOrderInsert(CThostFtdcInputOrderField *pInputOrder, CThostFtdcRspInfoField *pRspInfo);
 
     ///报单操作错误回报
     virtual void OnErrRtnOrderAction(CThostFtdcOrderActionField *pOrderAction, CThostFtdcRspInfoField *pRspInfo) {};

@@ -25,3 +25,11 @@ void MdEngine::on_market_data(const WZMarketDataField *data) {
             <<"\tAskVolume\t"<<data->AskVolume1<<endl;
     }
 }
+
+void MdEngine::load(const Config *config) {
+    this->tdAddress = config->tdAddress;
+    this->mdAddress = config->mdAddress;
+    strcpy(this->brokerId, config->brokerId);
+    strcpy(this->userId, config->userId);
+    strcpy(this->passWord, config->passWord);
+}
