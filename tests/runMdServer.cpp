@@ -135,14 +135,12 @@ void startServer(){
 //        }
         if(strcmp(buffer,"exit\n")==0)
             break;
+        fputs("[Client]", stdout);
         fputs(buffer, stdout);
         string rtnInfo = loadCmd(buffer);
         memset(buffer,0,sizeof(buffer));
         strcpy(buffer, rtnInfo.c_str());
         // 向Client端发送数据
-        cout<<"rtnInfo = "<<rtnInfo<<endl;
-        cout<<"buffer = "<<buffer<<endl;
-        cout<<"len = "<<len<<endl;
         send(conn, buffer, sizeof(buffer), 0);
     }
     close(conn);
@@ -157,6 +155,5 @@ int main(int argc, char* argv[]){
         startServer();
         md->Block();
     }
-
     return 0;
 }

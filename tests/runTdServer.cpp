@@ -47,16 +47,16 @@ void initTd(Config *config){
 //    WZInputOrderField* order = new WZInputOrderField();
 //    strcpy(order->BrokerID, "9999");
 //    strcpy(order->InvestorID, "111048");
-//    strcpy(order->InstrumentID, "al1803");
-//    strcpy(order->OrderRef, "000000000001");
+//    strcpy(order->InstrumentID, "al1803");  //用户定
+//    strcpy(order->OrderRef, "000000000001");  //系统自动改
 //    // 不确定
 ////    strcpy(order->UserID, "13226602970");
-//    order->OrderPriceType = WZ_CHAR_LimitPrice;
-//    order->Direction = WZ_CHAR_Buy;
+//    order->OrderPriceType = WZ_CHAR_LimitPrice;  //统一为限价单
+//    order->Direction = WZ_CHAR_Buy;    //用户定
 //    order->OffsetFlag = WZ_CHAR_Open;
 //    order->HedgeFlag = WZ_CHAR_Speculation;
-//    order->LimitPrice = 14060;
-//    order->Volume = 10;
+//    order->LimitPrice = 14060;    //用户定
+//    order->Volume = 10;   //用户定
 //    order->TimeCondition = WZ_CHAR_GFD;
 //    order->VolumeCondition = WZ_CHAR_AV;
 //    order->MinVolume = 1;
@@ -97,6 +97,8 @@ std::vector<std::string> split(std::string str,std::string pattern)
     return result;
 }
 
+
+
 string loadCmd(char *inputstr){
     /*
      * 字符串分割，分割成 argsc, args[]
@@ -107,7 +109,15 @@ string loadCmd(char *inputstr){
     input.erase(input.length() -1 );
     vector<string> params = split(input, " ");
     if (params[0] == "io"){
+        if (params.size() < 5){
+            return "No Enough Parameters";
+        }
         string rtnStr = "Insert Order";
+        string instrument_id = params[1];
+        string direction = params[2];
+        string price = params[3];
+        string volume = params[4];
+        td->req_limit_order_insert(instrument_id, direction, price, volume);
 //        vector<string> tickers;
 //        for (int tickerIndex = 1; tickerIndex < params.size(); ++tickerIndex) {
 //            tickers.push_back(params[tickerIndex]);
@@ -182,14 +192,12 @@ void startServer(){
 //        }
         if(strcmp(buffer,"exit\n")==0)
             break;
+        fputs("[Client]", stdout);
         fputs(buffer, stdout);
         string rtnInfo = loadCmd(buffer);
         memset(buffer,0,sizeof(buffer));
         strcpy(buffer, rtnInfo.c_str());
         // 向Client端发送数据
-        cout<<"rtnInfo = "<<rtnInfo<<endl;
-        cout<<"buffer = "<<buffer<<endl;
-        cout<<"len = "<<len<<endl;
         send(conn, buffer, sizeof(buffer), 0);
     }
     close(conn);

@@ -32,6 +32,7 @@ public:
     virtual void req_qry_account(const WZQryAccountField* data, int account_index, int requestId);
     virtual void req_order_insert(const WZInputOrderField* data, int account_index, int request, long rcv_time);
     virtual void req_order_action(const WZOrderActionField* data, int account_index, int requestId, long rcv_time);
+    virtual void req_limit_order_insert(string instrument_id , string direction, string limit_price, string volume);
 //    virtual void req_order_action(const LFOrderActionField* data, int account_index, int requestId, long rcv_time) = 0;
 public:
     CTPTdEngine();

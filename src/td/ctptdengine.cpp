@@ -9,6 +9,8 @@
 #include <td/ctptdengine.h>
 #include <wzadapter/ctpwzadapter.h>
 #include <ctime>
+#include <string>
+#include <cstdlib>
 
 using std::cout;
 using std::endl;
@@ -109,6 +111,7 @@ void CTPTdEngine::req_order_insert(const WZInputOrderField *data, int account_in
     }
 }
 
+
 void CTPTdEngine::OnRspOrderInsert(CThostFtdcInputOrderField *pInputOrder, CThostFtdcRspInfoField *pRspInfo,
                                    int nRequestID, bool bIsLast) {
     cout<<"Call OnRspOrderInsert function"<<endl;
@@ -162,4 +165,34 @@ void CTPTdEngine::req_order_action(const WZOrderActionField *data, int account_i
             <<" ErrorId "
             <<rtn_val<<endl;
     }
+}
+
+void CTPTdEngine::req_limit_order_insert(string instrument_id, string direction
+        , string limit_price, string volume) {
+    WZInputOrderField* order = new WZInputOrderField();
+    strcpy(order->BrokerID, this->brokerId);
+    strcpy(order->InvestorID, this->userId);
+    strcpy(order->InstrumentID, (char*)instrument_id.c_str());  //用户定
+    strcpy(order->OrderRef, "000000000001");  //系统自动改
+    // 不确定
+//    strcpy(order->UserID, "13226602970");
+    order->OrderPriceType = WZ_CHAR_LimitPrice;  //统一为限价单
+    if (direction == "0") order->Direction = WZ_CHAR_Buy;    //用户定
+    else if (direction == "1") order->Direction = WZ_CHAR_Sell;
+    else{
+        cout<<"Direction field can only be 0 or 1"<<endl;
+        exit(1);
+    }
+    order->OffsetFlag = WZ_CHAR_Open;
+    order->HedgeFlag = WZ_CHAR_Speculation;
+    order->LimitPrice = std::atoi(limit_price.c_str());    //用户定
+    order->Volume = std::atoi(volume.c_str());   //用户定
+    order->TimeCondition = WZ_CHAR_GFD;
+    order->VolumeCondition = WZ_CHAR_AV;
+    order->MinVolume = 1;
+    order->ContingentCondition = WZ_CHAR_Immediately;
+    order->StopPrice = 0;
+    order->ForceCloseReason = WZ_CHAR_NotForceClose;
+    order->IsAutoSuspend = 0;
+    this->req_order_insert(order, 0, 0, 0);
 }
