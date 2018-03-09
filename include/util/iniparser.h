@@ -57,22 +57,6 @@ struct Config{
     char passWord[21];
 };
 
-Config* loadConfig(const char* filePath){
-    CIni ini;
-    INI_RES rtn = ini.OpenFile(filePath, "r");
-    if (rtn == INI_SUCCESS ){
-        Config *account = new Config();
-        account->tdAddress = ini.GetStr("Account", "TD_ADDRESS");
-        account->mdAddress = ini.GetStr("Account", "MD_ADDRESS");
-        strcpy(account->brokerId, ini.GetStr("Account", "BROKER_ID"));
-        strcpy(account->userId, ini.GetStr("Account", "USER_ID"));
-        strcpy(account->passWord, ini.GetStr("Account", "PASSWORD"));
-        return account;
-    }
-    else{
-        cout<<"Load .ini "<<filePath<<"failed"<<endl;
-    }
-    return NULL;
-}
+Config* loadConfig(const char* filePath);
 
 #endif
