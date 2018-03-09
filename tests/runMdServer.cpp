@@ -115,6 +115,7 @@ void startServer(int port){
     struct sockaddr_in client_addr;
     socklen_t length = sizeof(client_addr);
 
+
     ///成功返回非负描述字，出错返回-1
     // 接收客户端请求, 当client端调用connect的时候继续往下
     int conn = accept(server_sockfd, (struct sockaddr*)&client_addr, &length);

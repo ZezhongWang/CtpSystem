@@ -4,4 +4,5 @@
 3. gdb打断点问题，另外一个文件？如何查看文件？
 4. 字符串复制 char* 与char[50]
 5. gdb 中 OrderPriceType = 50 '2'前面的50是什么意思？
-6. tcp socket 编程中server的端口是自己指定的，然后
+6. tcp socket 编程中server的端口是自己指定的，但是按道理我并不需要知道端口号
+    也可以进行连接才对
