@@ -9,14 +9,16 @@
 #include <iostream>
 #include <sys/socket.h>
 #include <netinet/in.h>
-#include <zconf.h>
 #include <vector>
+#include <zconf.h>
+#include <thread>
 
 using std::cout;
 using std::endl;
 using std::vector;
 
-#define MYPORT 8887
+#define PORT1 8887
+#define PORT2 8886
 #define QUEUE_SIZE 20
 #define BUFFER_SIZE 1024
 
@@ -82,14 +84,14 @@ string loadCmd(char *inputstr){
     }
 }
 
-void startServer(){
+void startServer(int port){
     // 创建socket
     int server_sockfd = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
 
     // 将socket与IP、端口绑定
     sockaddr_in server_sockaddr;
     server_sockaddr.sin_family = AF_INET; //使用IPv4地址
-    server_sockaddr.sin_port = htons(MYPORT); // 端口号
+    server_sockaddr.sin_port = htons(port); // 端口号
     server_sockaddr.sin_addr.s_addr = htonl(INADDR_ANY); //任何IP地址都可以访问
 
     //bind，成功返回0，出错返回-1
@@ -152,7 +154,11 @@ int main(int argc, char* argv[]){
     config = loadConfig("../MyConfig.ini");
     if (config != NULL){
         initMd(config);
-        startServer();
+        std::thread t1(startServer, PORT1);
+        std::thread t2(startServer, PORT2);
+        t1.join();
+        t2.join();
+//        startServer(MYPORT);
         md->Block();
     }
     return 0;

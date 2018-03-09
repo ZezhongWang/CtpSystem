@@ -1,6 +1,10 @@
 cmake_minimum_required(VERSION 3.5)
 project(CtpSystem)
 
+add_compile_options(-std=c++11)
+#add_compile_options(-lpthread)
+set(CMAKE_EXE_LINKER_FLAGS "-lpthread -lrt")
+
 # include directories
 INCLUDE_DIRECTORIES(
  ${PROJECT_SOURCE_DIR}/include

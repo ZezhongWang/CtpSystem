@@ -21,7 +21,6 @@
 using std::cout;
 using std::endl;
 
-#define MYPORT  8877
 #define BUFFER_SIZE 1024
 
 void helpInfo(){
@@ -34,7 +33,7 @@ void helpInfo(){
     cout<<"************************"<<endl;
 }
 
-int main()
+int startClient(int port)
 {
     ///定义sockfd
     int sock_cli = socket(AF_INET,SOCK_STREAM, IPPROTO_TCP);
@@ -43,7 +42,7 @@ int main()
     struct sockaddr_in servaddr;
     memset(&servaddr, 0, sizeof(servaddr));
     servaddr.sin_family = AF_INET;
-    servaddr.sin_port = htons(MYPORT);  ///服务器端口
+    servaddr.sin_port = htons(port);  ///服务器端口
     servaddr.sin_addr.s_addr = inet_addr("127.0.0.1");  ///服务器ip
 
     ///连接服务器，成功返回0，错误返回-1
@@ -77,5 +76,17 @@ int main()
     }
 
     close(sock_cli);
+    return 0;
+}
+
+int main(int argc, char* argv[]){
+    if (argc <= 1){
+        cout<<"Please input the target tcp port"<<endl;
+    }
+    else{
+        int port = std::atoi(argv[1]);
+        cout<<"Connect to port "<<port<<endl;
+        startClient(port);
+    }
     return 0;
 }
