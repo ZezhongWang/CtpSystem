@@ -88,4 +88,4 @@ onTrade(RtnTrade, ...)
    
 ### 关于统一数据结构的OrderFomat.h DataFormat.h
     实现起来较为麻烦，需要对业务很了解和熟悉多个平台的API，所以建议直接用别人的已经写好的。
-    
+    可以参考本项目中的include/wzadapter中的文件
