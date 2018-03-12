@@ -8,6 +8,7 @@ SET(CTP_SYSTEM_SRCS
  td/tdengine.cpp
  strategy/basestrategy.cpp
  util/iniparser.cpp
+ net/server.cpp
 )
 
 SET(CTP_TD_SRCS
@@ -16,6 +17,7 @@ SET(CTP_TD_SRCS
  td/ctptdengine.cpp
  td/tdengine.cpp
  util/iniparser.cpp
+ net/server.cpp
 )
 
 SET(CTP_MD_SRCS

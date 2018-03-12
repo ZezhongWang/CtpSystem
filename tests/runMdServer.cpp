@@ -12,6 +12,8 @@
 #include <vector>
 #include <zconf.h>
 #include <thread>
+#include <fcntl.h>
+#include <arpa/inet.h>
 
 using std::cout;
 using std::endl;
@@ -80,9 +82,12 @@ string loadCmd(char *inputstr){
     }
     else{
         string errorInfo = "Incorrect command";
+
+
         return errorInfo;
     }
 }
+
 
 void startServer(int port){
     // 创建socket
@@ -93,7 +98,8 @@ void startServer(int port){
     server_sockaddr.sin_family = AF_INET; //使用IPv4地址
     server_sockaddr.sin_port = htons(port); // 端口号
     server_sockaddr.sin_addr.s_addr = htonl(INADDR_ANY); //任何IP地址都可以访问
-
+    int opt = 1;
+    setsockopt(server_sockfd, SOL_SOCKET, SO_REUSEADDR, (const void*)&opt, sizeof(opt));
     //bind，成功返回0，出错返回-1
     if(bind(server_sockfd,(sockaddr *)&server_sockaddr,sizeof(server_sockaddr))==-1)
     {
@@ -124,6 +130,7 @@ void startServer(int port){
         perror("connect");
         exit(1);
     }
+
 
     while(1)
     {
@@ -164,3 +171,17 @@ int main(int argc, char* argv[]){
     }
     return 0;
 }
+
+
+/*
+ *
+ * class mdServer: server{
+ *      do_read();
+ *      do_write();
+ *
+ * }
+ * int main()
+ * Server mdserver = Server(ADDR, PORT);  //create socket,
+ * mdserver.start();
+ * mdserver.registerReadEvent
+ */
