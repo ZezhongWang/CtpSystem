@@ -1,3 +1,5 @@
+
+
 # CtpSystem
 本项目为上海期货交易所量化交易系统
 
@@ -17,9 +19,8 @@ CTP是交易所提供的接入交易环境的API，即一些头文件和几个so
 - CMake
 - 遵守完整的项目流程，按照需求分析，概要设计，开发，保证每一步都有文档
 - 注重团队合作，一定要有成员间协作开发的过程
+- 修改 `setting/CTP_connect.json` 配置文件，填入 SimNow 仿真交易的账号密码
 
 ### 参考资料
 - 上期技术，仿真平台：[http://www.simnow.com.cn/product.action]
 - 上期交易所网站：[http://www.shfe.com.cn/]
-
-
